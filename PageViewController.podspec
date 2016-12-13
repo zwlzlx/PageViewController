@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 
-   s.name         = "PageViewController"
+  s.name         = "PageViewController"
   s.version      = "1.0.1"
   s.summary      = "a TabbarController"
   s.homepage     = "https://github.com/zwlzlx/PageViewController"
@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "7.0"
   s.osx.deployment_target = "10.7"
   s.source       = { :git => "https://github.com/zwlzlx/PageViewController.git", :tag => "#{s.version}" }
-  s.source_files  = "PageViewController/", "PageViewController/PageView/*.{h,m}"
+  s.source_files  = "PageViewController/PageView/*.{h,m}"
   s.requires_arc = true
 end
