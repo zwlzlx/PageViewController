@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   # s.ios.deployment_target = "5.0"
   # s.osx.deployment_target = "10.7"
   s.source       = { :git => "https://github.com/zwlzlx/PageViewController.git", :tag => "#{s.version}" }
-  s.source_files  = "PageViewController/*.{h,m}"
+  s.source_files  = "PageView/*.{h,m}"
   s.frameworks   = "Foundation"
   s.requires_arc = true
 end
