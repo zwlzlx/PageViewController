@@ -9,9 +9,9 @@
 Pod::Spec.new do |s|
 
   s.name         = "PageViewController"
-  s.version      = "1.0.1"
+  s.version      = "1.1.0"
   s.summary      = "a TabbarController"
-  s.homepage     = "https://github.com/zwlzlx/PageViewController"
+  s.homepage     = "https://github.com/zwlzlx"
   s.license      = "MIT"
   s.author             = { "zwlzlx" => "zwlzlx@sina.com" }
   s.platform     = :ios,"5.0"
